@@ -1,4 +1,4 @@
-
+import sys
 f = open("expense_report.txt")
 
 
@@ -11,3 +11,4 @@ for x in fs:
         sum = x+y
         if sum == 2020:
             print(x*y)
+            sys.exit()
